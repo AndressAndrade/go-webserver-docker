@@ -1,0 +1,22 @@
+html, body, div {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url("../images/fundo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Jura', sans-serif;
+}
+
+.text {
+    display: flex;
+	  flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-size: 40px;
+}
